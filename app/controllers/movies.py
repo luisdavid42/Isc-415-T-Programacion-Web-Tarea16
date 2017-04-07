@@ -4,7 +4,7 @@ from flask import render_template
 from flask import jsonify
 from flask import json
 from flask import send_file
-import urllib.request
+from flask import request
 import os
 from app.models import Movie, db
 
